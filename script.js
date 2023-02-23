@@ -43,6 +43,7 @@ function winner() {
     return playerScore > computerScore ? "Player Wins!" : "Computer Wins :/";
 }
 
+/*
 function game() {
     for (let i = 0; i < 5; i++) {
         let playerChoice = getPlayerChoice();
@@ -56,3 +57,4 @@ function game() {
 }
 
 game()
+*/

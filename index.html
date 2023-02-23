@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src = "script.js"></script>
+    <link rel = "stylesheet" src = "style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <h1 id = "heading">Rock Paper Scissors</h1>
+    <p>First to five points wins!</p>
+    <div id = "buttons">
+        <button class = "choiceButton">Rock</button>
+        <button class = "choiceButton">Paper</button>
+        <button class = "choiceButton">Scissors</button>
+    </div>
+    <div id = "results">
+        <div id = "playerResults">
+            <p class = "resultsText" id = "playerChoice"></p>
+            <p class = "resultsText" id = "playerScore"></p>
+        </div>
+        <div id = "computerResults">
+            <p class = "resultsText" id = "computerChoice"></p>
+            <p class = "resultsText" id = "computerScore"></p>
+        </div>
+    </div>
+
+    <div id = "roundResults">
+        <p class = "resultsText" id = "roundResult"></p>
+    </div>
+
+    <div id = "finalResult"></div>
+    <button id = "playAgain">Play Again</button>
 </body>
 </html>
