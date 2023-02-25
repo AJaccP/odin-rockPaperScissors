@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src = "script.js"></script>
     <link rel = "stylesheet" href = "style.css">
     <title>Document</title>
 </head>
@@ -16,32 +15,33 @@
     
     <div id = "buttonContainer">
         <div id = "choiceButtons">
-            <button class = "button">Rock 👊</button>
-            <button class = "button">Paper ✋</button>
-            <button class = "button">Scissors ✌</button>
+            <button id = "rock" class = "button">Rock 👊</button>
+            <button id = "paper" class = "button">Paper ✋</button>
+            <button id = "scissors" class = "button">Scissors ✌</button>
         </div>
     </div>
     <div id = "results">
         <div id = "playerResults">
             <h2 class = "resultsHeading">PLAYER</h2>
-            <p class = "resultsText" id = "playerChoice">1</p>
-            <p class = "resultsText" id = "playerScore">2</p>
+            <p class = "resultsText" id = "playerRoundChoice"></p>
+            <p class = "resultsText" id = "playerRoundScore"></p>
         </div>
         <div id = "computerResults">
             <h2 class = "resultsHeading">COMPUTER</h2>
-            <p class = "resultsText" id = "computerChoice">3</p>
-            <p class = "resultsText" id = "computerScore">4</p>
+            <p class = "resultsText" id = "computerRoundChoice"></p>
+            <p class = "resultsText" id = "computerRoundScore"></p>
         </div>
     </div>
 
     <div id = "roundResults">
-        <p class = "resultsText" id = "roundResult">5</p>
+        <p class = "resultsText" id = "roundResult"></p>
     </div>
 
-    <p id = "finalResultText" class = "resultsText">6</p>
+    <p class = "resultsText" id = "finalResult"></p>
 
     <div id = "playAgain">        
-        <button class = "button">Play Again</button>
+        <button class = "button" id = "restartButton">Play Again</button>
     </div>
 </body>
+<script src = "script.js"></script>
 </html>
