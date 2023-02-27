@@ -56,7 +56,7 @@ function updateOverallRoundResult(roundWinner) {
     if (roundWinner === "Tie") {
         roundResult.textContent = "Round tied";
 
-    } else if (roundWinner = "Player") {
+    } else if (roundWinner === "Player") {
         roundResult.textContent = `${playerChoice} beats ${computerChoice}. Player wins the round!`;
 
     } else {
